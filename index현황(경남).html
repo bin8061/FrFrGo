@@ -13,3 +13,27 @@
      </ul>
    </div>
 </nav>
+</head>
+<body>
+   <div class="container">
+    <br>
+    <br>
+    <span> 조회하고 싶은 날짜를 선택해주세요 </span>
+ <input type="text" class="datepicker">
+ <script type="text/javascript">
+   document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems, options);
+  });
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+ </script>
+ <a href="index.html">
+  <button class="btn waves-effect waves-light" type="submit" name="action">조회하기
+    <i class="material-icons right">find_in_page</i>
+  </button>
+  </a>
+</div>
+</body>
+</body>
