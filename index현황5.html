@@ -1,0 +1,68 @@
+<head>
+
+    <meta charset="utf-8">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <p style="text-align: center;"></p>
+
+    <title>FrFrGO_R</title>
+    
+    <nav>
+
+    <div class="nav-wrapper amber lighten-3">
+
+      <a href="index.html" class="brand-logo center">FrFrGO<i class="large material-icons">insert_chart</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+           <p style="text-align: center; margin-bottom: 45px;">
+
+    구체적인 지명을 선택해 주세요.</p>
+
+      </ul>
+
+    </div>
+
+    </nav>
+</head>
+<body>
+   <div class="container">
+<div class="input-field col s12">
+    <select>
+      <optgroup label="team 1">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+      </optgroup>
+      <optgroup label="team 2">
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+      </optgroup>
+    </select>
+    <label>Optgroups</label>
+  </div>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('select').formSelect();
+  });
+  </script>
+  <br>
+  <br>
+  <a href="index현황(대구).html">
+  <button class="btn waves-effect waves-light" type="submit" name="action">다음
+    <i class="material-icons right">arrow_forward</i>
+  </button>
+  </a>
+</div>
+</body>
