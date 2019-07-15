@@ -16,28 +16,40 @@
 </head>
 <body>
   <div class="container">
- <div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
-    <i class="large material-icons">mode_edit</i>
-  </a>
-  <ul>
-    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-  </ul>
-</div>
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, options);
-  });
+    <br>
+    <br>
+  <table>
+        <thead>
+          <tr>
+              <th>가장 많은 화재가 발생한 순위</th>
+              <th>지역명</th>
+              <th>규모</th>
+              <th>일시</th>
+          </tr>
+        </thead>
 
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.fixed-action-btn').floatingActionButton();
-  });
-</script>
+        <tbody>
+          <div class="striped">
+          <tr>
+            <td>1</td>
+            <td>강원도 (고성, 속초 ...)</td>
+            <td>약 500ha</td>
+            <th>2019.04.04-05</th>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>강원도(..시)</td>
+            <td>....</td>
+            <th>...</th>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>강원도(..시)</td>
+            <td>...</td>
+            <th>....</th>
+          </tr>
+        </div>
+        </tbody>
+      </table>
   </div>
 </body>
